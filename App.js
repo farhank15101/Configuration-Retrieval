@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <h1>Configuration Retrieval App</h1>
-      <button onClick={handleGetAptConfigs}>Get APT Configs</button>
+      <button onClick={handleGetAptConfigs}>Get Apt Configs</button>
       <button onClick={handleGetSnapConfigs}>Get Snap Configs</button>
       <button onClick={handleGetJavaConfigs}>Get Java Configs</button>
       <pre>{result}</pre>
